@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000001;
+    color: aqua;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: aqua;
+    text-decoration: solid;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+   width: 90%;
+   margin: auto;
+}
+
+/*Navegacion*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0 ;
+}
+
+.nav-brand{
+    width: 50px;
+}
+
+/*navegacion izquierda*/
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 4px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.showcase{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0 ;
+}
+
+.formul {
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0 ;
+ }
+
+.evento {
+    width: 100%;
+    background: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid aqua;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aqua ;
+}

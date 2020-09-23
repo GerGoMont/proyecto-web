@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salon de fiestas y eventos "GOMEZMONT"</title>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--fuente oswald-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--estilos css-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="GOMEZMONTLOGO.png" alt="logo"  class="nav-brand">
+            <ul class="nav-main">
+                <li>
+                    <a href="#"> Inicio</a>
+                </li>
+                <li>
+                        <a href="#"> Quienes somos</a>
+                    </li>
+                <li>
+                         <a href="#"> Nuestro menu</a>
+                    </li>
+                <li>
+                        <a href="#"> Reservaciones</a>
+                    </li>
+                <li>
+                        <a href="#"> Contacto</a>
+                    </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <hr>
+        <!--showcase-->
+        <header class="showcase">
+            <h2>Seleccion de evento</h2>
+        </header>
+        <br>
+        <form class="formul" name="formulario-even" action="#">
+            <div>
+                    <label>Tipo de evento</label>
+                    <br>
+                    <select class="evento" name="evento" id="evento">
+                        <option value="0">Seleccione una opcion</option>
+                        <option value="1">Graduacion</option>
+                        <option value="2">Boda</option>
+                        <option value="3">Bautizo</option>
+                        <option value="4">XV años</option>
+                        <option value="5">Reunion familiar</option>
+                        <option value="6">Reunion de negocios</option>
+                        <option value="7">Otros....</option>
+                    </select>
+                </div>
+                <div>
+                        <label>Fecha</label>
+                        <br>
+                        <input class="evento" type="date" name="dia">
+                    </div>
+                    <div>
+                            <label>Hora</label>
+                            <br>
+                            <select class="evento" name="hora" id="hora">
+                                    <option value="0">Seleccione una opcion</option>
+                                    <option value="1">9:00 am</option>
+                                    <option value="2">12:00 am</option>
+                                    <option value="3">5:00 pm</option>
+                                </select>
+                                <br>
+                                <select class="evento" name="opt" id="">
+                                    <option value="-">-</option>
+                                </select>
+                    </div>
+                    <div>
+                            <label>Evento guardado</label>
+                            <br>
+                            <select class="evento" name="hora" id="hora">
+                                    <option value="0">Seleccione una opcion</option>
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                    <option value="4"></option>
+                                    <option value="5"></option>
+                                    <option value="6"></option>
+                                    <option value="7"></option>
+                                </select>
+                    </div>
+                <br>
+        </form>
+        <!--definir las variables correspondientes-->
+        <script type="text/javascript">
+        var opt_1=new Array ("Desayuno mexicano","Desayuno internacional","Desayuno americano");
+        var opt_2=new Array ("Comida mexicana","Comida internacional","Comida americana");
+        var opt_3=new Array ("Cena mexicana","Cena internacional","Cena americana");
+        </script>
+        <br>
+    </div>
+</body>
+</html>
